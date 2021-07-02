@@ -34,6 +34,7 @@ describe 'form' do
 
     fill_in 'post[title]', with: "My post title"
     fill_in 'post[description]', with: "My post description"
+    
 
     click_on "Create Post"
 
